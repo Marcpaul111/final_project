@@ -25,6 +25,7 @@ export interface CartItem {
     count: number;
   };
   qty: number;
+  title: string;
 }
 
 interface CartState {
